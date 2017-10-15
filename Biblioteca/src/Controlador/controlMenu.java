@@ -7,7 +7,6 @@ package Controlador;
 
 import Modelo.Libro;
 import static Modelo.Libro.buscarlibro;
-import Modelo.Prestamo;
 import Vista.MenuBiblioteca;
 import Vista.Prestar;
 import java.awt.event.ActionEvent;

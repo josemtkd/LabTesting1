@@ -7,7 +7,6 @@ package Controlador;
 
 import Modelo.Admin;
 import static Modelo.Admin.buscarAdmin;
-import Modelo.Persona;
 import Vista.Login;
 import Vista.MenuBiblioteca;
 import java.awt.event.ActionEvent;
