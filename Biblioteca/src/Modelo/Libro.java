@@ -149,11 +149,12 @@ public class Libro {
             Scanner lector=new Scanner(archivo);
                FileWriter fw = new FileWriter(aux, true);
                 BufferedWriter bw = new BufferedWriter(fw);
-            while(lector.hasNext()){
+            try {
+                while(lector.hasNext()){
                 
                 String linea = lector.next();
                 String[] tokens = linea.split(",");
-                try {
+                
 
                  
                     
@@ -171,10 +172,11 @@ public class Libro {
                     bw.write(book.getCodigo() + "," + book.getTitulo() + "," + book.getAño() + "," + book.getAutor() + "," + book.getEstante() + "," + book.getDisponibilidad()+"\r\n");
                     bw.flush();
                     bw.close();
+                     }
 
                 } catch (IOException e) {
                 }
-            }
+           
             lector.close();
             eliminararchivo("Libros.txt");
             archivoAux.renameTo(archivo);
@@ -197,11 +199,12 @@ public class Libro {
             Scanner lector=new Scanner(archivo);
               FileWriter fw = new FileWriter(aux, true);
               BufferedWriter bw = new BufferedWriter(fw);
-            while(lector.hasNext()){
+              try {
+              while(lector.hasNext()){
                 
                 String linea = lector.next();
                 String[] tokens = linea.split(",");
-                try {
+              
                         
                   
                     book.setCodigo(tokens[0]);
@@ -217,10 +220,10 @@ public class Libro {
                     bw.write(book.getCodigo() + "," + book.getTitulo() + "," + book.getAño() + "," + book.getAutor() + "," + book.getEstante() + "," + book.getDisponibilidad()+"\r\n");
                     bw.flush();
                     bw.close();
-
+            }
                 } catch (IOException e) {
                 }
-            }
+            
             lector.close();
             eliminararchivo("Libros.txt");
             archivoAux.renameTo(archivo);
