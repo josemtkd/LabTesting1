@@ -162,22 +162,21 @@ public class MenuBiblioteca extends javax.swing.JFrame {
             }
         });
     }
-
-	//btnConsultar Es el boton de consultar
-    public javax.swing.JButton btnConsultar;
 	/*
 	* Boton de consultar
 	*/
-	//btnDevolver Es el boton de devolver
-    public javax.swing.JButton btnDevolver;
-		/*
+    public javax.swing.JButton btnConsultar;
+	
+	/*
 	* Boton de devolver
 	*/
-	//btnPrestar Es el boton de prestar
-    public javax.swing.JButton btnPrestar;
-		/*
+    public javax.swing.JButton btnDevolver;
+	
+	/*
 	* Boton de prestar
 	*/
+    public javax.swing.JButton btnPrestar;
+
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
