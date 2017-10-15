@@ -155,12 +155,7 @@ public class Login extends javax.swing.JFrame {
         });
     }
     
-    /**
-     * @param btnIngresar 
-     * Es el botón ingresar 
-     */
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnIngresar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -168,5 +163,5 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     public javax.swing.JPasswordField txtContraseña;
     public javax.swing.JTextField txtUsuario;
-    // End of variables declaration//GEN-END:variables
+    
 }
