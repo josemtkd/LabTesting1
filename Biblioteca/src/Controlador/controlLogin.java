@@ -9,7 +9,7 @@ import Modelo.Admin;
 import static Modelo.Admin.buscarAdmin;
 import Modelo.Persona;
 import Vista.Login;
-import Vista.Menu;
+import Vista.MenuBiblioteca;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
@@ -45,7 +45,7 @@ public class controlLogin implements ActionListener {
             if (admin.getUsuario().equals("")) {
                 JOptionPane.showMessageDialog(login, "Usuario no Existe!, Intente nuevamente");
             } else {
-                Menu menu=new Menu();
+                MenuBiblioteca menu=new MenuBiblioteca();
                 controlMenu vistaMenu=new controlMenu(menu);
                 vistaMenu.iniciarMenu();
                 login.setVisible(false);
