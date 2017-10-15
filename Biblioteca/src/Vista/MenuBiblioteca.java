@@ -163,10 +163,19 @@ public class MenuBiblioteca extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+
     public javax.swing.JButton btnConsultar;
+	/*
+	* Boton de consultar
+	*/
     public javax.swing.JButton btnDevolver;
+		/*
+	* Boton de devolver
+	*/
     public javax.swing.JButton btnPrestar;
+		/*
+	* Boton de prestar
+	*/
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -174,5 +183,5 @@ public class MenuBiblioteca extends javax.swing.JFrame {
     public javax.swing.JTextField txtBuscar;
     public javax.swing.JTextField txtDevolver;
     public javax.swing.JTextField txtPrestar;
-    // End of variables declaration//GEN-END:variables
+
 }

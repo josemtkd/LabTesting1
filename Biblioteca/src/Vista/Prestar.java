@@ -168,9 +168,15 @@ public class Prestar extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+
     public javax.swing.JButton btnAceptar;
+		/*
+	* Boton de aceptar
+	*/
     public javax.swing.JButton btnCancelar;
+		/*
+	* Boton de cancel
+	*/
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -179,5 +185,5 @@ public class Prestar extends javax.swing.JFrame {
     public javax.swing.JTextField txtDireccion;
     public javax.swing.JTextField txtNombre;
     public javax.swing.JTextField txtRut;
-    // End of variables declaration//GEN-END:variables
+
 }
