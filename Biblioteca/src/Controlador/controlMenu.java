@@ -8,7 +8,7 @@ package Controlador;
 import Modelo.Libro;
 import static Modelo.Libro.buscarlibro;
 import Modelo.Prestamo;
-import Vista.Menu;
+import Vista.MenuBiblioteca;
 import Vista.Prestar;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,10 +16,10 @@ import javax.swing.JOptionPane;
 
 public class controlMenu implements ActionListener {
     
-    Menu menu=new Menu();
+    MenuBiblioteca menu=new MenuBiblioteca();
     Libro book=new Libro();    
     
-    public controlMenu(Menu menu){
+    public controlMenu(MenuBiblioteca menu){
         
         this.menu=menu;
         this.menu.btnConsultar.addActionListener(this);
