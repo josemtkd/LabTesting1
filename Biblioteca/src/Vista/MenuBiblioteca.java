@@ -164,17 +164,17 @@ public class MenuBiblioteca extends javax.swing.JFrame {
     }
 
 	//btnConsultar Es el boton de consultar
-    public javax.swing.JButton btnConsultar;
+    public javax.swing.JButton btnConsultar;//OK
 	/*
 	* Boton de consultar
 	*/
 	//btnDevolver Es el boton de devolver
-    public javax.swing.JButton btnDevolver;
+    public javax.swing.JButton btnDevolver;//OK
 		/*
 	* Boton de devolver
 	*/
 	//btnPrestar Es el boton de prestar
-    public javax.swing.JButton btnPrestar;
+    public javax.swing.JButton btnPrestar;//OK
 		/*
 	* Boton de prestar
 	*/
