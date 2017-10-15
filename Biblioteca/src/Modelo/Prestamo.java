@@ -59,8 +59,7 @@ public class Prestamo {
         this.fecha = fecha;
     }    
     
-    public void prestar(){
-        File archivo=new File("Prestamos.txt");        
+    public void prestar(){      
         try{
             FileWriter fw=new FileWriter("Prestamos.txt",true);
             fw.write("Codigo Libro: "+getLibro().getCodigo()+" Titulo: "+getLibro().getTitulo()+" Cliente: " + getPersona().getNombre()+" Rut: "+getPersona().getRut()+" Direccion: "+getPersona().getDireccion()+" Fecha: "+ this.getFecha());
