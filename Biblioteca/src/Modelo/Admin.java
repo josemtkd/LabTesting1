@@ -24,14 +24,14 @@ public class Admin {
     }
 
     /**
-     * @return the password
+     * @return la contraseña
      */
     public String getPassword() {
         return password;
     }
 
     /**
-     * @param password the password to set
+     * @param password la contraseña a setear
      */
     public void setPassword(String password) {
         this.password = password;
