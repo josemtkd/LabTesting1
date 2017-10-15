@@ -154,6 +154,8 @@ public class Libro {
                 try {
 
                     FileWriter fw = new FileWriter(aux, true);
+                    BufferedWriter bw = new BufferedWriter(fw);
+                    
 
                     book.setCodigo(tokens[0]);
                     book.setTitulo(tokens[1]);
@@ -165,9 +167,9 @@ public class Libro {
                     }else{
                         book.setDisponibilidad(tokens[5]);
                     }
-                    fw.write(book.getCodigo() + "," + book.getTitulo() + "," + book.getAño() + "," + book.getAutor() + "," + book.getEstante() + "," + book.getDisponibilidad()+"\r\n");
-                    fw.flush();
-                    fw.close();
+                    bw.write(book.getCodigo() + "," + book.getTitulo() + "," + book.getAño() + "," + book.getAutor() + "," + book.getEstante() + "," + book.getDisponibilidad()+"\r\n");
+                    bw.flush();
+                    bw.close();
 
                 } catch (IOException e) {
                 }
@@ -197,9 +199,9 @@ public class Libro {
                 String linea = lector.next();
                 String[] tokens = linea.split(",");
                 try {
-
+                        
                     FileWriter fw = new FileWriter(aux, true);
-
+                    BufferedWriter bw = new BufferedWriter(fw);
                     book.setCodigo(tokens[0]);
                     book.setTitulo(tokens[1]);
                     book.setAño(tokens[2]);
@@ -210,9 +212,9 @@ public class Libro {
                     }else{
                         book.setDisponibilidad(tokens[5]);
                     }
-                    fw.write(book.getCodigo() + "," + book.getTitulo() + "," + book.getAño() + "," + book.getAutor() + "," + book.getEstante() + "," + book.getDisponibilidad()+"\r\n");
-                    fw.flush();
-                    fw.close();
+                    bw.write(book.getCodigo() + "," + book.getTitulo() + "," + book.getAño() + "," + book.getAutor() + "," + book.getEstante() + "," + book.getDisponibilidad()+"\r\n");
+                    bw.flush();
+                    bw.close();
 
                 } catch (IOException e) {
                 }
