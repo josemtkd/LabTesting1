@@ -23,7 +23,7 @@ public class ValidaRut {
             char dv = rut.charAt(rut.length() - 1);
 
             int m = 0, s = 1;
-            for (; rutAux != 0; rutAux /= 10) {
+            for (int i=10; rutAux != 0; rutAux /= i) {
                 s = (s + rutAux % 10 * (9 - m++ % 6)) % 11;
             }
             if (dv == (char) (s != 0 ? s + 47 : 75)) {
