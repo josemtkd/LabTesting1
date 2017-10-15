@@ -23,16 +23,12 @@ public class Admin {
         this.usuario = usuario;
     }
 
-    /**
-     * @return la contraseña
-     */
+
     public String getPassword() {
         return password;
     }
 
-    /**
-     * @param password la contraseña a setear
-     */
+
     public void setPassword(String password) {
         this.password = password;
     }  
