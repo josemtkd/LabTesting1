@@ -147,14 +147,15 @@ public class Libro {
         try{    
             
             Scanner lector=new Scanner(archivo);
+               FileWriter fw = new FileWriter(aux, true);
+                BufferedWriter bw = new BufferedWriter(fw);
             while(lector.hasNext()){
                 
                 String linea = lector.next();
                 String[] tokens = linea.split(",");
                 try {
 
-                    FileWriter fw = new FileWriter(aux, true);
-                    BufferedWriter bw = new BufferedWriter(fw);
+                 
                     
 
                     book.setCodigo(tokens[0]);
@@ -194,14 +195,15 @@ public class Libro {
         try{    
             
             Scanner lector=new Scanner(archivo);
+              FileWriter fw = new FileWriter(aux, true);
+              BufferedWriter bw = new BufferedWriter(fw);
             while(lector.hasNext()){
                 
                 String linea = lector.next();
                 String[] tokens = linea.split(",");
                 try {
                         
-                    FileWriter fw = new FileWriter(aux, true);
-                    BufferedWriter bw = new BufferedWriter(fw);
+                  
                     book.setCodigo(tokens[0]);
                     book.setTitulo(tokens[1]);
                     book.setAño(tokens[2]);
