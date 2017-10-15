@@ -169,12 +169,12 @@ public class Prestar extends javax.swing.JFrame {
     }
 
 	//btnAceptar Es el boton de aceptar
-    public javax.swing.JButton btnAceptar;
+    public javax.swing.JButton btnAceptar;//OK
 		/*
 	* Boton de aceptar
 	*/
 	//btnCancelar Es el boton de cancelar
-    public javax.swing.JButton btnCancelar;
+    public javax.swing.JButton btnCancelar;//OK
 		/*
 	* Boton de cancel
 	*/
