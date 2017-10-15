@@ -155,7 +155,7 @@ public class Login extends javax.swing.JFrame {
         });
     }
     
-
+	//btnIngresar Es el boton de ingresar
     public javax.swing.JButton btnIngresar;
     /*
     Boton Ingresar 
