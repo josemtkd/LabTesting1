@@ -7,7 +7,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+/**
+ * Clase se encarga del manejo de libros 
+ *
+ * @author Javier Santibañez
+ * @version 1.2
+ */
 public class Libro {
 
     /**

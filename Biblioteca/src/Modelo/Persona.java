@@ -1,7 +1,12 @@
 
 package Modelo;
 
-
+/**
+ * Clase encargada de gestionar las personas que tienen los libros prestados
+ *
+ * @author Javier Santibañez
+ * @version 1.2
+ */
 public class Persona {
     private String rut;
     private String nombre;

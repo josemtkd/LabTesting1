@@ -5,6 +5,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 
+/**
+ * Clase que gestiona el prestamo de libros
+ *
+ * @author Javier Santibañez
+ * @version 1.2
+ */
 public class Prestamo {
     private Persona persona;
     private Libro libro;

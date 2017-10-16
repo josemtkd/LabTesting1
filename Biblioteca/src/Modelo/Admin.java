@@ -5,7 +5,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+/**
+ * Modelo que maneja al administrador
+ *
+ * @author Javier Santibañez
+ * @version 1.2
+ */
 public class Admin {
     private String usuario;
     private String password;

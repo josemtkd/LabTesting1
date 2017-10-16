@@ -14,8 +14,10 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
 /**
+ * Clase que maneja el login del sistema
  *
- * @author Jose
+ * @author Javier Santibañez
+ * @version 1.2
  */
 public class controlLogin implements ActionListener {
     

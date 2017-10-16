@@ -15,7 +15,12 @@ import java.awt.event.ActionListener;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-
+/**
+ * Clase que controla los prestamos de libros
+ *
+ * @author Javier Santibañez
+ * @version 1.2
+ */
 public class controlPrestamo implements ActionListener {
     Prestar vistaPrestar=new Prestar();
     Libro book=new Libro();
