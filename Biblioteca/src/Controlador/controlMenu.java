@@ -13,6 +13,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 
+/**
+ * Clase que gestiona el menu del sistema
+ *
+ * @author Javier Santibañez
+ * @version 1.2
+ */
 public class controlMenu implements ActionListener {
     
     MenuBiblioteca menu=new MenuBiblioteca();

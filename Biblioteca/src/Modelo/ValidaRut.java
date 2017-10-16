@@ -6,8 +6,10 @@
 package Modelo;
 
 /**
-*
- * @author Jose
+ * Clase que valida el rut del user
+ *
+ * @author Javier Santibañez
+ * @version 1.2
  */
 public class ValidaRut {
     
